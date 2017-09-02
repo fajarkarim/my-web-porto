@@ -32,9 +32,9 @@ class Skill extends Component {
             <div className="card-body">
               <h4 className="card-title"><i><strong>Hei..</strong></i></h4>
               <p className="card-text">I created some projects to prove i got understanding in that Javascript's technology. I love created things, but i have more interest in backend and react-native</p>
-              <p className="card-text">checkout here, here, and here to see my understanding in backend and database</p>
-              <p className="card-text">checkout here, here, and here to see my understanding in frontend</p>
-              <p className="card-text">checkout here, here, and here to see when i'm in a team</p>
+              <p className="card-text">checkout <a target="_blank" href="https://github.com/fajarkarim/rest-api">here</a> and <a target="_blank" href="http://bit.ly/hacktivOver"> here </a>to see my understanding in backend and database</p>
+              <p className="card-text">checkout <a target="_blank" href="http://bit.ly/knbnHacktiv">here</a>, <a target="_blank" href="https://github.com/fajarkarim/hacktiv-overflow/tree/master/overflow">here</a>, and <a target="_blank" href="https://github.com/fajarkarim/my-web-porto">here</a> to see my understanding in frontend</p>
+              <p className="card-text">checkout <a target="_blank" href="https://github.com/fajarkarim/sentiment-analysis-media">here</a> and <a target="_blank" href="https://github.com/fajarkarim/thumb-wars">here</a> to see when i'm in a team</p>
             </div>
           </div>
         </div>

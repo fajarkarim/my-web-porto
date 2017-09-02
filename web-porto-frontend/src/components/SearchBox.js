@@ -9,7 +9,10 @@ class SearchBox extends Component {
     }
   }
 
-  handleChange(e) {
+  handleSearch(e) {
+    if (e.key === 'Enter') {
+      console.log('masuk enter')
+    }
     this.setState({
       searchVal: e.target.value
     })
@@ -19,7 +22,7 @@ class SearchBox extends Component {
     return (
       <div className="row justify-content-center mt-5 mb-2">
         <div className="form-group col-8 justify-content-center">
-          <input onChange={(e) => this.handleChange(e)} type="text" className="form-control"  placeholder="search everything..."/>
+          <input onKeyPress={(e) => this.handleSearch(e)} type="text" className="form-control"  placeholder="search everything..."/>
         </div>
       </div>
     )

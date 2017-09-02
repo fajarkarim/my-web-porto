@@ -30,7 +30,7 @@ class Home extends Component {
           id: 4,
           name: 'About Me',
           url: 'https://png.icons8.com/user/dusk/64',
-          route: '/me'
+          route: '/aboutme'
         },
         {
           id: 5,
@@ -57,7 +57,7 @@ class Home extends Component {
               return (
                 <div key={i} className="col-4 pb-md-4 pt-4">
                   <div className="row justify-content-center">
-                    <div class="card-body">
+                    <div className="card-body">
                       <Link to={image.route}>
                         <img src={image.url} title={image.name} width="64" height="64"/>
                       </Link>
